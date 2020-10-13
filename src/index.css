@@ -7,9 +7,9 @@ html {
 }
 
 .darkmode {
-  --body-bg: #690023;
+  --body-bg: #3a0717;
   --color-primary: #fff;
-  --color-secondary: #3a0717;
+  --color-secondary: #690023;
 }
 
 *,

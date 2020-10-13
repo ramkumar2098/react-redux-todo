@@ -1,7 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { changeTodo, saveTodo, addTodo } from '../redux'
-import { ReactComponent as Save } from '../SVGs/Save.svg'
 import { v4 as uuidv4 } from 'uuid'
 import Todo from './todo/Todo'
 import style from './TodoContainer.module.css'
@@ -26,8 +25,8 @@ function TodoContainer() {
           }
         />
         {todos[0] && editMode ? (
-          <button onClick={() => dispatch(saveTodo(todo))}>
-            <Save />
+          <button onClick={() => todo.trim() && dispatch(saveTodo(todo))}>
+            &#x2713;
           </button>
         ) : (
           <input
