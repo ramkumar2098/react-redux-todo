@@ -1,0 +1,8 @@
+.toggleTheme {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}

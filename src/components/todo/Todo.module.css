@@ -1,0 +1,47 @@
+.todo {
+  background-color: var(--color-secondary);
+  position: relative;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todo:last-child {
+  margin-bottom: 25px;
+}
+
+.todo > label {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.todo > input:checked + label {
+  text-decoration: line-through;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+}
+
+.buttons > button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.buttons > button:last-child {
+  margin-left: 15px;
+}
+
+.todo:hover button,
+.buttons > button:focus {
+  opacity: 1;
+}
