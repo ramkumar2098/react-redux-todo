@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-redux-todo/static/css/main.062e8152.chunk.css",
+    "main.js": "/react-redux-todo/static/js/main.363b984a.chunk.js",
+    "main.js.map": "/react-redux-todo/static/js/main.363b984a.chunk.js.map",
+    "runtime-main.js": "/react-redux-todo/static/js/runtime-main.ebec8b13.js",
+    "runtime-main.js.map": "/react-redux-todo/static/js/runtime-main.ebec8b13.js.map",
+    "static/js/2.74326786.chunk.js": "/react-redux-todo/static/js/2.74326786.chunk.js",
+    "static/js/2.74326786.chunk.js.map": "/react-redux-todo/static/js/2.74326786.chunk.js.map",
+    "index.html": "/react-redux-todo/index.html",
+    "precache-manifest.f63afb5a726055a7877d5d812b7616aa.js": "/react-redux-todo/precache-manifest.f63afb5a726055a7877d5d812b7616aa.js",
+    "service-worker.js": "/react-redux-todo/service-worker.js",
+    "static/css/main.062e8152.chunk.css.map": "/react-redux-todo/static/css/main.062e8152.chunk.css.map",
+    "static/js/2.74326786.chunk.js.LICENSE.txt": "/react-redux-todo/static/js/2.74326786.chunk.js.LICENSE.txt",
+    "static/media/Delete.63e1e59d.svg": "/react-redux-todo/static/media/Delete.63e1e59d.svg",
+    "static/media/Edit.1fd297e2.svg": "/react-redux-todo/static/media/Edit.1fd297e2.svg",
+    "static/media/Save.29cd2954.svg": "/react-redux-todo/static/media/Save.29cd2954.svg",
+    "static/media/Theme.b99670a1.svg": "/react-redux-todo/static/media/Theme.b99670a1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebec8b13.js",
+    "static/js/2.74326786.chunk.js",
+    "static/css/main.062e8152.chunk.css",
+    "static/js/main.363b984a.chunk.js"
+  ]
+}
